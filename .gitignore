@@ -1,0 +1,28 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==== Virtual Environment ====
+venv/
+.env
+.env.*
+
+# ==== OS / Editor ====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==== Logs ====
+*.log
+
+# ==== Dataset / Generated Files ====
+data_images/
+*.zip
+*.tar
+*.tar.gz
+
+# ==== Jupyter (kalau nanti pakai) ====
+.ipynb_checkpoints/
