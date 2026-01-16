@@ -26,3 +26,4 @@ data_images/
 
 # ==== Jupyter (kalau nanti pakai) ====
 .ipynb_checkpoints/
+data/images/
