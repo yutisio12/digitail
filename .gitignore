@@ -27,3 +27,12 @@ data_images/
 # ==== Jupyter (kalau nanti pakai) ====
 .ipynb_checkpoints/
 data/images/
+data/labels.cache
+data/yolov8n.pt
+data/labels/train.cache
+data/labels/val.cache
+data/
+models/best.onnx
+models/best2.onnx
+yolov8n.pt
+runs/
