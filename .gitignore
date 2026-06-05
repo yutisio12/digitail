@@ -36,3 +36,4 @@ models/best.onnx
 models/best2.onnx
 yolov8n.pt
 runs/
+seven_segment_reader/sevenv/
