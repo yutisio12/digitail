@@ -1,0 +1,22 @@
+services:
+  python-ocr:
+    build: ./python-ocr
+    networks:
+      - internal
+    restart: unless-stopped
+
+  spring-api:
+    build: ./spring-api
+    ports:
+      - "8080:8080"
+    environment:
+      - API_KEYS=prod-key-xxx
+      - OCR_SERVICE_URL=http://python-ocr:8001
+    depends_on:
+      - python-ocr
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
