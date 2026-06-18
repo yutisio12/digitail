@@ -1,0 +1,29 @@
+# Java
+spring-api/target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+python-ocr/__pycache__/
+python-ocr/*.pyc
+python-ocr/.venv/
+python-ocr/venv/
+
+# Env
+.env
+*.env.local
+
+# Temp
+/tmp/
