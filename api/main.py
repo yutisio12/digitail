@@ -5,7 +5,7 @@ from api.job_queue import enqueue
 app = FastAPI()
 os.makedirs("upload", exist_ok=True)
 
-@app.post("/upload")
+@app.post("/uploads")
 async def upload(file: UploadFile):
     path = f"uploads/{file.filename}"
 
