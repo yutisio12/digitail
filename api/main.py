@@ -3,7 +3,7 @@ import os, shutil
 from api.job_queue import enqueue
 
 app = FastAPI()
-os.makedirs("uploads", exist_ok=True)
+os.makedirs("upload", exist_ok=True)
 
 @app.post("/upload")
 async def upload(file: UploadFile):
